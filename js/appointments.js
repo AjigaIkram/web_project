@@ -29,7 +29,7 @@ class AppointmentManager {
 
     init() {
         // Check if user is authenticated
-        this.checkAuthentication();
+        // this.checkAuthentication();
         
         // Set minimum date to today
         this.setMinimumDate();
@@ -38,7 +38,7 @@ class AppointmentManager {
         this.setupEventListeners();
         
         // Pre-fill user data if available
-        this.prefillUserData();
+        // this.prefillUserData();
     }
 
     checkAuthentication() {
